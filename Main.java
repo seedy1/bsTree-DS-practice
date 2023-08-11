@@ -9,6 +9,13 @@ public class Main {
         // test pre order
         PreOrder preO = new PreOrder();
         preO.recursiveTra(tree1);
-        preO.recursiveTra(tree1);
+        preO.iterativeTra(tree1);
+
+        InOrder inO = new InOrder();
+        inO.recursiveTra(tree1);
+        inO.iterativeTra(tree1);
+
+        PostOrder postO = new PostOrder();
+        postO.recursiveTra(tree1);
     }
 }

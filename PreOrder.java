@@ -3,6 +3,9 @@ import java.util.List;
 import java.util.Stack;
 
 class PreOrder{
+    static{
+        System.out.println("Pre Order");
+    }
 
     void recursiveTra(Node root){
         if(root == null) return;
